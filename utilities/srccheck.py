@@ -332,6 +332,7 @@ def main():
     print ("\r\n====== srccheck @ https://github.com/sglebs/srccheck ==========")
     print(arguments)
     try:
+        os.add_dll_directory(arguments["--dllDir"])
         import understand
     except:
         print ("Can' find the Understand DLL. Use --dllDir=...")
