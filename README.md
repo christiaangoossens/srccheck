@@ -1,3 +1,5 @@
+###### Updated for Python 3.8
+
 srccheck: a utility to [KALOI](http://structure101.com/2006/10/complexity-debt-dont-fix-it-keep-a-lid-on-it/) (Keep a Lid On It) source code on various metrics supported by [SciTools Understand](https://scitools.com).
 
 Pre-requisites
