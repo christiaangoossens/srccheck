@@ -154,6 +154,7 @@ def process_prj_metrics (cmdline_arguments, prj_metrics):
         cur_value = prj_metrics.get(metric, None)
         if cur_value is not None:
             max_metrics_found [metric] = cur_value
+            cur_value = float(cur_value)
             if cur_value > max_value:
                 _print_metric_violation (metric, cur_value, max_value)
                 violation_count = violation_count + 1
